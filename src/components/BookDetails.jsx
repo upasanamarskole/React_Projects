@@ -18,7 +18,7 @@ function BookDetails({ book, onClose }) {
             <img src={thumbnail} alt={title} className="img-fluid mb-3" />
             <p>
               <strong>Authors: </strong>
-              {authors.join(", ")}
+              {authors}
             </p>
             <p>
               <strong>Published date:</strong>
